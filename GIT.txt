@@ -1,0 +1,8 @@
+CD  Carpeta
+GIT init (generar proyecto en repositorios)
+GIT status
+GIT add (agrega archivo por archivo)
+GIT add. (agrega  todos archivos)
+GIT commit -m"Listado de 6 imagenes"
+GIT remote
+GIT Push origin master

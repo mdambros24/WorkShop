@@ -1,0 +1,121 @@
+@import "reset";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+header{
+	height: 40px;
+	padding:10px;
+	background:#273746;
+	.logo{
+		padding: 10px;
+		margin-left: 80px;
+		color: white;
+		font-size: 16px;
+		font-family: Montserrat;
+		display: flex;
+
+	}
+	#navegador{
+		padding: -10px;
+		margin-right: 80px;
+		color: white;
+		font-size: 12px;
+		font-family: Montserrat;
+		display: flex;
+		flex-direction: flex-end;
+		position: absolute;
+		left: 1000px;
+		li{
+			margin-right: 20px;
+		}
+	}
+}
+
+.ppal{
+	background: #00cc99;
+	width: 1349px;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	
+	font-family: Montserrat;
+	h1{
+		font-size: 40px;
+		display: flex;	
+		position: absolute;
+		margin-top: 150px;
+	}
+	.primero{
+		font-size: 12px;
+		display: flex;
+		position: absolute;
+		margin-top: 200px;
+		.estrella{		
+		display: flex;	
+		position: absolute;
+		margin-top: -25px;
+		justify-content: center;
+		margin-left: 170px;
+		}
+	}
+}
+.contenedor{
+	background: white;
+	color: #333333;
+	width: 1349px;
+	height: 600px;
+	font-family: Montserrat;
+	h2{
+		font-size: 30px;
+		display: flex;	
+		position: absolute;
+		align-items: center;
+		justify-content: center;
+		padding: 30px 0px 0px 600px;
+		
+	}
+	.segundo{
+		font-size: 12px;
+		display: flex;
+		position: absolute;
+		align-items: center;
+		justify-content: center;
+		margin-top: 70px;
+		.estrella{		
+		display: flex;
+		position: absolute;
+		margin-top: -5px;
+		padding: 0px 0px 0px 1350px;
+		justify-content: center;		
+		}
+	}
+
+	.imagenes{
+		list-style: none;
+		padding: 0px;
+		display: flex;
+		flex-wrap: wrap;	
+	}
+	.imagenes li{
+		width: 33%;
+	}
+	article{
+		padding: 20px;
+	}
+	.responsive{
+		max-width:100px;
+	}
+	@media (max-width:800px){
+		.imagenes li{
+			width: 50%;
+		}
+	}
+	@media (max-width:400px){
+		.imagens li{
+			width: 100%;
+		}
+	}
+}
